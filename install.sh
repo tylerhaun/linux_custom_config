@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av . ~ --exclude install.hs
+rsync -a . ~ --exclude install.hs
