@@ -71,3 +71,8 @@ set mouse=a
 
 " enable jshint
 set runtimepath+=~/.vim/bundle/jshint2.vim/
+
+se autoindent
+
+se fdm=indent
+se foldlevelstart=99
