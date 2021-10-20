@@ -28,6 +28,7 @@ set whichwrap+=<,>,h,l,[,]
 nnoremap * *N
 
 " underline all occurences of word under cursor
+highlight Underlined cterm=underline ctermfg=lightblue
 function EscapeString(str)
     return substitute(a:str, '[^a-zA-z0-9-<>]', '', "g")
 "    return a:str
